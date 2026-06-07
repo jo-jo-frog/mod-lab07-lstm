@@ -89,7 +89,7 @@ print("\nГенерация текста...")
 
 generated_text = generate_text(5000, diversity=0.5)
 
-with open('../result/gen.txt', 'w', encoding='utf-8') as f:
+with open('result/gen.txt', 'w', encoding='utf-8') as f:
     f.write(generated_text)
 
 print("Результат сохранён в ../result/gen.txt")
