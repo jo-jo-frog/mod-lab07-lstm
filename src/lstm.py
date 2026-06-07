@@ -12,7 +12,7 @@ import os
 
 os.makedirs('../result', exist_ok=True)
 
-with open('input.txt', 'r', encoding='utf-8') as file:
+with open('src/input.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 print("Длина загруженного текста (символов):", len(text))
